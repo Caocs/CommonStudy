@@ -1,4 +1,4 @@
-package com.java.ccs.study.commonstudy.algorithm.tree.brt;
+package com.java.ccs.study.commonstudy.algorithm.p09tree.brt;
 
 /**
  * @author caocs
@@ -639,7 +639,7 @@ public class RBTree<T extends Comparable<T>> {
      * 删除结点(z)，并返回被删除的结点
      *
      * 参数说明：
-     *     tree 红黑树的根结点
+     *     p09tree 红黑树的根结点
      *     z 删除的结点
      */
     public void remove(T key) {

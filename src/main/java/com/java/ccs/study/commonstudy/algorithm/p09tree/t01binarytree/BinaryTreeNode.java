@@ -1,4 +1,4 @@
-package com.java.ccs.study.commonstudy.algorithm.tree.t01binarytree;
+package com.java.ccs.study.commonstudy.algorithm.p09tree.t01binarytree;
 
 /**
  * @author caocs

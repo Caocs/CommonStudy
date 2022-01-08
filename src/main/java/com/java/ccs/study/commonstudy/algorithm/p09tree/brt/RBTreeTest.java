@@ -1,4 +1,4 @@
-package com.java.ccs.study.commonstudy.algorithm.tree.brt;
+package com.java.ccs.study.commonstudy.algorithm.p09tree.brt;
 
 /**
  * @author caocs

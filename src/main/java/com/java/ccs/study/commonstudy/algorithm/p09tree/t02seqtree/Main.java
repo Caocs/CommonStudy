@@ -1,4 +1,4 @@
-package com.java.ccs.study.commonstudy.algorithm.tree.t02seqtree;
+package com.java.ccs.study.commonstudy.algorithm.p09tree.t02seqtree;
 
 /**
  * @author caocs
