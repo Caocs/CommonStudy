@@ -18,6 +18,8 @@ public class Main {
         Set<String> linkedHashSet = new LinkedHashSet<>();
         TreeSet<Goods> treeSet = new TreeSet<>();
 
+        HashMap<String,String> hashMap = new HashMap<>();
+
     }
 
     @Test
