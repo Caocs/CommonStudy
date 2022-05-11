@@ -1,5 +1,7 @@
 package com.java.ccs.study.commonstudy.designpattern.p04structuralpattern.t07proxy.demo1;
 
+import com.java.ccs.study.commonstudy.designpattern.p04structuralpattern.t07proxy.model.TeacherDao;
+
 /**
  * @Author: Cao.cs
  * @Date: Created in 23:41 2022/5/9
@@ -14,6 +16,13 @@ public class Main {
      * JDK代理接口，Cglib代理类。
      */
     public static void main(String[] args) {
+        // 测试静态代理
+        //创建被代理对象
+        TeacherDao teacherDao = new TeacherDao();
+        //创建代理对象，聚合被代理对象
+        TeacherDaoProxy teacherDaoProxy = new TeacherDaoProxy(teacherDao);
+        //通过代理对象，调用被代理对象的方法
+        teacherDaoProxy.teach();
 
     }
 
