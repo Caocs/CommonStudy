@@ -1,0 +1,14 @@
+package com.java.ccs.study.commonstudy.designpattern.p05behavioralpattern.t03visitor.demo1;
+
+/**
+ * @Author: Cao.cs
+ * @Date: Created in 22:52 2022/5/12
+ * 抽象访问者
+ */
+public abstract class Action {
+
+    public abstract void getManResult(Man man);
+
+    public abstract void getWomanResult(Woman woman);
+
+}
